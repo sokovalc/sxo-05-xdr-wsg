@@ -1,0 +1,43 @@
+/* Fonts */
+@font-face {
+	font-family: 'CiscoSans';
+	src: url('../webfonts/cisco/CiscoSansTTRegular.woff2') format('woff2'),
+		 url('../webfonts/cisco/CiscoSansTTRegular.woff') format('woff');
+}
+@font-face {
+	font-family: 'CiscoSans';
+	font-style: italic;
+	src: url('../webfonts/cisco/CiscoSansTTRegularOblique.woff2') format('woff2'),
+		 url('../webfonts/cisco/CiscoSansTTRegularOblique.woff') format('woff');
+}
+@font-face {
+	font-family: 'CiscoSans';
+	font-weight: bold;
+	src: url('../webfonts/cisco/CiscoSansTTBold.woff2') format('woff2'),
+		 url('../webfonts/cisco/CiscoSansTTBold.woff') format('woff');
+}
+@font-face {
+	font-family: 'CiscoSans';
+	font-style: italic;
+	font-weight: bold;
+	src: url('../webfonts/cisco/CiscoSansTTBoldOblique.woff2') format('woff2'),
+		 url('../webfonts/cisco/CiscoSansTTBoldOblique.woff') format('woff');
+}
+
+$body-font-family: CiscoSans, Arial, sans-serif;
+$link-color: #007493;
+$sidebar-color: #F7F7F7;
+
+/* Sizing */
+$nav-width: 325px;
+$nav-width-md: 250px;
+$content-width: 950px;
+$search-results-width: $content-width - $nav-width;
+
+$media-queries: (
+	xs: 320px,
+	sm: 500px,
+	md: $content-width,
+	lg: $content-width + $nav-width,
+	xl: 1400px,
+);
