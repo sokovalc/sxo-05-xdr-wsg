@@ -2,8 +2,8 @@ title: SecureX orchestration
 description: >-
  Documentation and workflow information for Cisco XDR.
 
-baseurl: "/sxo-05-security-workflows"
-url: "https://ciscosecurity.github.io"
+baseurl: "/sxo-05-xdr-wsg"
+url: "https://sokovalc.github.io"
 
 logo: "/assets/images/logo.png"
 
@@ -13,7 +13,7 @@ site.favicon: "/favicon.ico"
 
 aux_links:
   "GitHub Repository":
-    - "https://github.com/CiscoSecurity/sxo-05-security-workflows"
+    - "https://github.com/sokovalc/sxo-05-xdr-wsg"
 
 back_to_top: true
 back_to_top_text: "Back to top"
@@ -27,7 +27,7 @@ plugins:
 
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/CiscoSecurity/sxo-05-security-workflows"
+gh_edit_repository: "https://github.com/sokovalc/sxo-05-xdr-wsgs"
 gh_edit_branch: "Main"
 gh_edit_source: docs
 gh_edit_view_mode: "tree"
