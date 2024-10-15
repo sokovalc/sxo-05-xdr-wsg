@@ -15,6 +15,6 @@ The different types of variables are described below:
 | Decimal | Numbers with a decimal point, such as 4.5 |
 | Integer | Whole numbers with no decimals |
 | Secure String | Encrypted strings that are masked to protect them |
-| String | Text containing any characters |
+| String | Text containing any characters (have different formats) |
 | Table | Contains rows and columns of structured data, like an Excel spreadsheet |
 | [Custom Types]({{ site.baseurl }}/variables/custom-types) | Custom tables with a pre-defined structure |
